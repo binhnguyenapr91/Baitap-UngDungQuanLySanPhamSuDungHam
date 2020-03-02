@@ -32,10 +32,13 @@ function remove(idToRemove){
 }
 function update(idToUpdate){
         let newInfoToUpdate = prompt("Enter new information to update:");
-        if(confirm("Are you sure?")){
-            productsList.splice(idToUpdate,1,newInfoToUpdate);
-            displayList();
+        if(newInfoToUpdate){
+            if(confirm("Are you sure?")){
+                productsList.splice(idToUpdate,1,newInfoToUpdate);
+                displayList();
         }
+    }
+
 }
 
 
