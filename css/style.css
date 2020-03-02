@@ -1,0 +1,44 @@
+table{
+    border: 2px solid;
+    border-collapse: collapse;
+    width: 600px;
+}
+
+td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.headerContainer{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+button{
+    height: 34px;
+    width: 80px;
+    background-color: dodgerblue;
+    margin: 5px;
+}
+
+.addNewArea{
+    background-color: lightslategray;
+    width: 600px;
+}
+.container{
+    margin: auto;
+    width: 500px;
+}
+
+#inputArea{
+    padding: 40px;
+}
+
+#txtAddNewValue{
+    size: 300px;
+}
+td{
+    background-color: lightslategray;
+    height: 30px;
+
+}
