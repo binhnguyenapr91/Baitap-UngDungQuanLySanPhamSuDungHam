@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/this.css">
+    <script src="js/this.js" defer></script>
+</head>
+<body onload="displayList()">
+<table id="tableContainer">
+    <thead>
+    <tr class="uiInputInfo">
+        <td><button type="button" onclick="create()">Create</button><button type="button" onclick="update()">Update</button><button type="button" onclick="remove()">Remove</button></td>
+        <td><label for="txtInputInfo">Input Info</label><input type="text" id="txtInputInfo"></td>
+    </tr>
+    <tr id="headerContainer">
+        <td>ID</td>
+        <td>Name</td>
+    </tr>
+
+    </thead>
+    <tbody id ="mainTable">
+
+    </tbody>
+</table>
+
+</body>
+</html>
