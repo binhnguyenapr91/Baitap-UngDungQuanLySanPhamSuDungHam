@@ -17,9 +17,12 @@ function refreshList(){
 }
 function create(){
         let addedStudentName = document.getElementById("txtAddNewValue").value;
-        productsList.push(addedStudentName);
-        console.table(productsList);
-        displayList();
+        if(addedStudentName!=""){
+            productsList.push(addedStudentName);
+            console.table(productsList);
+            displayList();
+        }else alert("Name of Product is empty - Enter again!");
+
 }
 function remove(idToRemove){
         if(confirm("Are you sure?")){
